@@ -30,6 +30,9 @@ Multi-Task-Human-Action-Recognition
 ├── README.md
 ├── conda_list.txt
 │
+├── configs
+│   └── config.yaml
+|
 ├── data
 │   ├── Images
 │   ├── final_predictions.csv
@@ -39,6 +42,12 @@ Multi-Task-Human-Action-Recognition
 ├── notebooks            
 │   └── notebook.ipynb              # Simple exercise notebook
 │
+├── results
+│   ├── classes_cm_results.png
+│   ├── final_predictions.csv
+│   ├── more_than_one_person_results.png
+│   └── training_performance.png
+|
 └── src
     └── Modules.py            # Main project modules
 ```
