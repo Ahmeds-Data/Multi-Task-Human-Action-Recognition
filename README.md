@@ -30,10 +30,10 @@ Multi-Task-Human-Action-Recognition
 ├── README.md
 ├── conda_list.txt
 │
-├── notebooks              
-│   ├── notebook.ipynb              # Simple exercise notebook
+├── notebooks            
+│   └── notebook.ipynb              # Simple exercise notebook
 │
 └── src
-    ├── Modules.py             # Main project modules
+    └── Modules.py            # Main project modules
 
 ```
