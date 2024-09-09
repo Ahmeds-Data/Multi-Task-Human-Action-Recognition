@@ -4,7 +4,7 @@
 
 Human Action Recognition (HAR) involves identifying actions performed by individuals from images or videos. This project focuses on developing a deep convolutional neural network (CNN) to recognize actions from still images. The system is designed to predict both the specific action of a person and whether there are multiple people in the image.
 
-![predictions](results/prediction.png)
+![prediction](https://github.com/user-attachments/assets/f58471fc-6f64-4fa8-924a-1f6c1fbaba1d)
 
 
 ### Key Objectives
