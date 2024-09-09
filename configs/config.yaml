@@ -1,0 +1,37 @@
+# ==========================
+# MAIN PARAMETERS OF PROJECT
+# ==========================
+
+working_directory: "../"
+
+# DIR TO DATASETS
+datasets:
+  total_images: "data/Images/"
+  training_data: "data/train_data_2024.csv"
+  prediction_data: "data/final_predictions.csv"
+
+# BALANCING TRAINING DATA
+balancing: false # SET TO FALSE TO SKIP
+
+# CONSTANTS
+constants:
+  num_classes:  # This will be calculated dynamically based on the dataset
+  person_column: # Binary column that will be encoded
+    - "MoreThanOnePerson_le"
+  float_type: "float64"
+  le_dic: {}
+
+# TRAINING PARAMETERS
+training_parameters:
+  img_height: 224
+  img_width: 224
+  batch_size: 32
+  train_ratio: 0.90
+  valid_ratio: 0.08
+  test_ratio: 0.02
+  epochs: 50
+
+# MODEL/RESULTS PATH
+paths:
+  model_path: "models/"
+  results_path: "results/"
