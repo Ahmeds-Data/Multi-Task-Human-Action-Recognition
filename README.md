@@ -32,7 +32,7 @@ Multi-Task-Human-Action-Recognition
 │
 ├── configs
 │   └── config.yaml
-|
+│
 ├── data
 │   ├── Images
 │   ├── final_predictions.csv
@@ -47,7 +47,7 @@ Multi-Task-Human-Action-Recognition
 │   ├── final_predictions.csv
 │   ├── more_than_one_person_results.png
 │   └── training_performance.png
-|
+│
 └── src
     └── Modules.py            # Main project modules
 ```
