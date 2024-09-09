@@ -41,6 +41,4 @@ Multi-Task-Human-Action-Recognition
 │
 └── src
     └── Modules.py            # Main project modules
-
-
 ```
